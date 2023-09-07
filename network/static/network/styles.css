@@ -1,0 +1,90 @@
+body {
+  background-color: #1c1c1c;
+  color: #ffffff;
+}
+
+#post-form-div, 
+#profile-div-container {
+  padding: 10px 20px;
+}
+
+#post-view {
+  margin: 5px;
+}
+
+.post {
+  background-color: #333333;
+  margin: 4px 2px;
+}
+
+#profile-div-title, 
+#follow-button {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+#profile-div-title {
+  top: 9.5%;
+  left: 49.5%;
+}
+
+#follow-button {
+  top: 23%;
+  left: 49.5%;
+}
+
+#profile-stats-list {
+  overflow: hidden;
+  list-style: none;
+  padding: 8px 0;
+  text-align: center;
+  width: 100%;
+}
+
+#profile-stats-list > li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 2px 10px 2px 0;
+}
+
+.like-btn,
+.unlike-btn {
+  border-radius: 4px;
+  border-width: 1px;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.like-btn {
+  background-color: #CCCCCC;
+  border-color: #999999;
+  color: #333333;
+}
+
+.unlike-btn {
+  background-color: #FFD700;
+  border-color: #FFD700;
+  color: #333333;
+}
+
+.like-btn:hover,
+.unlike-btn:hover {
+  background-color: #999999;
+  border-color: #999999;
+  color: #FFFFFF;
+}
+
+.counter-txt {
+  margin-left: 10px;
+  color: black;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

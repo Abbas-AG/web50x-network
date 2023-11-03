@@ -9,7 +9,7 @@
         {% if request.user.is_authenticated %}
             <form id="post-form">
                 {% csrf_token %}
-                <textarea id="post-form-msg" class="form-control bg-dark text-white m-1"></textarea>
+                <textarea id="post-form-msg" class="form-control bg-dark text-white m-1" placeholder="the post text here"></textarea>
                 <button class="btn btn-primary mt-2">Post</button>
             </form>
         {% endif %}
